@@ -40,6 +40,7 @@ public class BaseClass {
 		if(result.getStatus()==ITestResult.FAILURE) {
 			HelperClass.captureScreenShot(driver);
 			System.out.println("Screenshot captured successfully");
+			//Test comment test
 		}
 	}
 }
